@@ -1,0 +1,21 @@
+*,
+*:before, 
+*:after {
+	-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+
+}
+
+body {
+    margin: 0; /* Reset default margin */
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto; /* Center horizontally and add margin top and bottom */
+    height: 80vh;
+}
+
