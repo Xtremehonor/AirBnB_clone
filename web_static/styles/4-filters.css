@@ -1,26 +1,39 @@
+
+
+.container {
+    position: relative;
+}
+
 .filters {
+    position: absolute;
     background: white;
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    top: 0;
+	right: 0;
 
 }
 
+.button:hover {
+    opacity: 0.8;
+}
+
 .button {
-    box-sizing: border-box;
-    display: inline-block;
     font-size: 18px;
-    text-align: center;
     background-color: #FF5A5F;
+    text-align: center;
     color: #FFFFFF;
     height: 48px;
     width: 20%;
     border-radius: 4px;
-    margin: 11px 11px 20px 780px;
-    padding:11px 11px;
+    right: 30px;
+    top: 15%;
+    position: absolute;
+    
 }
 
-.button:hover {
-    opacity: 0.5;
-}
+
+
+

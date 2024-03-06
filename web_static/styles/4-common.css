@@ -1,3 +1,12 @@
+*,
+*:before, 
+*:after {
+	-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+
+}
+
 
 body {
     margin: 0; /* Reset default margin */
@@ -8,6 +17,8 @@ body {
 .container {
     max-width: 1000px;
     margin: 30px auto; /* Center horizontally and add margin top and bottom */
-    height: 80vh;
+
 }
+
+
 
