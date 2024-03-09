@@ -1,0 +1,30 @@
+
+section.places {
+  position: relative;
+}
+
+article {
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  article h2 {
+    display: inline-block;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid  #FF5A5F;
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.Suite h2 {
+    position: relative;
+    top: 50%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
