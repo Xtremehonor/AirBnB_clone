@@ -1,5 +1,7 @@
 
-
+section.places {
+  position: relative;
+}
 
 article {
     display: inline-block;
@@ -21,6 +23,8 @@ article {
 
 
 .Suite h2 {
-    display: inline-block;
-    margin: 0px 25%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
