@@ -1,0 +1,139 @@
+
+article {
+    width: 390px;
+    margin: 30px;
+    border: 1px solid  #FF5A5F;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.home {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.home h2, .Suite h2, .price_by_night {
+  display: inline-block;
+}
+
+.home h2, .Suite h2 {
+  
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.home h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px auto;
+}
+
+.Suite h1 {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.Suite {
+    margin: 30px auto;
+    position: relative;
+}
+
+.price_by_night {
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+  color: #FF5A5F;
+  margin: 20px 20px 20px 20px;
+  border: 2px solid #FF5A5F;
+  border-radius: 50%;
+  min-width: 60px;
+  width: 80px;
+  height: 80px;
+  font-size: 30x;
+  
+}
+
+.price_by_night h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.information {
+  position: relative;
+  margin: 20px;
+  height: 80px;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+
+
+
+.max_guest, 
+.number_rooms, 
+.number_bathrooms {
+  display: inline-block;
+  width: 100px;
+}
+
+article p {
+text-align: justify;
+margin: 20px;
+}
+
+
+.information p {
+font-size: 13px;
+margin: 0px;
+text-align: center;
+}
+
+
+.amenity h2 {
+  position: relative;
+  top: 0;
+  right: 135px;
+  font-size: 16px;
+}
+
+li img {
+  height: 20px;
+  margin-right: 20px;
+}
+
+ul li {
+  margin: 20px 20px 0px 0px;
+}
+
+ul {
+  border-top: 1px solid #DDDDDD;
+  margin: 0px 20px 30px 20px;
+  height: 100px;
+
+}
+
+.reviews {
+  position: relative;
+  
+}
+
+
+.reviews p {
+  position: relative;
+  border-top: 1px solid #DDDDDD;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.reviews h2 {
+  position: relative;
+  margin-top: 10px;
+  top: 10px;
+  right: 135px;
+  font-size: 16px;
+  
+}

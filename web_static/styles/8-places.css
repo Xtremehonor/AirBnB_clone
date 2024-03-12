@@ -12,8 +12,8 @@
     display: inline-block;
   }
 
-  article h2 {
-    position: flex;
+  .home h2, .Suite h2 {
+    position: relative;
     font-size: 30px;
     margin: 20px;
   }
@@ -26,6 +26,7 @@
 
   .Suite h1 {
     position: relative;
+    
     font-size: 30px;
     margin: 10px auto;
   }
