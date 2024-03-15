@@ -37,6 +37,7 @@ article {
 }
 
 .Suite {
+    display: block;
     margin: 30px auto;
     position: relative;
 }
@@ -69,8 +70,6 @@ article {
   border-top: 1px solid #DDDDDD;
   border-bottom: 1px solid #DDDDDD;
 }
-
-
 
 
 .max_guest, 
